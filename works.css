@@ -1,0 +1,114 @@
+.works {
+    background: #47d2e9;
+    padding: 40px 0 80px;
+}
+
+.works__title {
+    color: #47d2e9;
+    background: #ffffff;
+}
+
+
+.works-part {
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    flex: 1 1 calc(33% - 20px);
+    margin: 10px;
+    border: 1px solid #eee;
+    -webkit-box-shadow: 0 0 30px -20px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 30px -20px rgba(0, 0, 0, .5);
+    max-width: 360px;
+}
+
+.works-part:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05)
+}
+
+.works__inner {
+    -ms-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+
+.works__type {
+    display: flex;
+    justify-content: center;
+    animation: 2s alternate slidein;
+    margin-bottom: 20px;
+}
+
+.works-title {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    color: #47d2e9;
+    background: #ffffff;
+    padding: 5px;
+    max-width: 200px;
+    margin: 0 auto 40px;
+}
+
+.works__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 15px auto 0;
+    width: 250px
+}
+
+.works-button,
+.works-name {
+    color: #3f3f3f;
+    text-align: center
+}
+
+.works-button {
+    border: solid 1px #47d2e9;
+    margin-bottom: 10px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    background-color: #fff
+}
+
+.works-button:hover {
+    color: #fff;
+    background-color: #47d2e9;
+    border: solid 1px #47d2e9
+}
+
+.works-name {
+    font-size: 18px;
+    margin: 0 auto 15px;
+    font-weight: 600
+}
+
+.works-description {
+    padding-left: 30px;
+}
+
+@media screen and (max-width:1000px) {
+    .works-part {
+        flex: 1 1 100%;
+    }
+    .works__inner {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .works__type{
+        justify-content: left;
+    }
+}

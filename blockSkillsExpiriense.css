@@ -1,0 +1,32 @@
+.blockSkillsExpiriense {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    padding: 40px 0;
+}
+
+.skills
+ , .expiriense{
+    flex: 1 1 50%
+}
+
+.expiriense__company {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.expiriense__period {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.expiriense__period--sum {
+    color:#3f3f3f82;
+}
+
+@media screen and (max-width:800px){
+    .blockSkillsExpiriense {
+        flex-direction: column;
+    }
+}

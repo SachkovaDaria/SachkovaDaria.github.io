@@ -1,0 +1,21 @@
+.tab-content {
+    animation: 1s  alternate opacity;
+}
+.tab-header-item--active {
+    border-bottom: 3px solid #ffffff;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.tab-header-item {
+    cursor: pointer;
+    margin-right: 20px;
+    padding-bottom: 3px;
+    color:#ffffff;
+}

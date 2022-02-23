@@ -1,0 +1,23 @@
+.contacts-list__link {
+    color: #3f3f3f;
+}
+
+.contacts-list__link:hover {
+    color: #47d2e9;
+}
+
+.contacts-list__item {
+    margin-left: 20px;
+}
+
+.contacts__list {
+    display: flex;
+    padding: 20px 0;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:600px){
+    .contacts__list {
+        flex-direction: column;
+    }
+}
