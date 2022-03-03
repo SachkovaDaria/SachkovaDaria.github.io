@@ -73,4 +73,10 @@
         height: auto;
         align-items: center;
     }
+    .promo-name {
+        font-size: 30px;
+    }
+    .promo-work {
+        font-size: 16px;
+    }
 }
