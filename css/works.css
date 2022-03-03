@@ -8,6 +8,9 @@
     background: #ffffff;
 }
 
+.works__comment {
+    color: #ffffff;
+}
 
 .works-part {
     display: flex;
